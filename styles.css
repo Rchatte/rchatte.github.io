@@ -17,35 +17,30 @@ body {
     background-color: #333;
     color: #fff;
     display: flex;
+    justify-content: space-between; /* Align items horizontally */
     align-items: center;
     padding: 10px;
-    position: relative;
+    position: sticky; /* Make the top bar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 100; /* Ensure it's above other elements */
 }
 
 /* Style the logo image */
 .logo img {
-    max-height: 100%; /* Adjust the maximum height to fit the content */
-    max-width: 100%; /* Adjust the maximum width to fit the content */
-    border: 5px solid #fff; /* Add a fancy border around the image */
-    border-radius: 50%; /* Make the border circular */
-    margin-right: 20px; /* Add margin to separate the image from the text */
+    max-height: 100%;
+    max-width: 100%;
+    border: 5px solid #fff;
+    border-radius: 50%;
 }
 
 /* Style the header text */
-.header {
-    flex-grow: 1; /* Allow the text to grow and take up the remaining space */
-    text-align: center;
-}
-
 .header h1 {
     margin: 0;
 }
 
 /* Container for Left Sidebar and Main Content */
 .container {
-    margin-top: 0; /* Remove the margin to eliminate the gap */
     display: flex;
-    flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
 }
 
 /* Left Sidebar Styles */
@@ -54,6 +49,8 @@ body {
     background-color: #555;
     color: #fff;
     padding: 10px;
+    position: sticky; /* Make the left sidebar sticky */
+    top: 0; /* Stick to the top of the viewport */
 }
 
 /* Style the links in the sidebar */
@@ -73,8 +70,7 @@ body {
 
 /* Main Content Styles */
 .main-content {
-    flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
+    flex-grow: 1;
     padding: 20px;
     background-color: #fff;
-    transition: opacity 0.3s; /* Add a transition effect for content changes */
 }
