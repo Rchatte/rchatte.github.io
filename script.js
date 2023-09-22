@@ -1,11 +1,10 @@
-// Function to load content from the list.html file
-function loadContentFromList(contentId) {
-    fetch(`list.html#${contentId}`)
+// Function to load content from HTML files
+function loadContent(file) {
+    fetch(file)
         .then(response => response.text())
         .then(data => {
             const contentPlaceholder = document.getElementById('content-placeholder');
             contentPlaceholder.style.opacity = 0; // Fade out
-
             setTimeout(() => {
                 contentPlaceholder.innerHTML = data; // Replace content
                 contentPlaceholder.style.opacity = 1; // Fade in
@@ -20,7 +19,7 @@ function loadContentFromList(contentId) {
 document.querySelectorAll('.left-sidebar a').forEach(link => {
     link.addEventListener('click', event => {
         event.preventDefault(); // Prevent default link behavior
-        const contentId = link.getAttribute('data-content');
-        loadContentFromList(contentId);
+        const targetFile = link.getAttribute('href');
+        loadContent(targetFile);
     });
 });

@@ -9,26 +9,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the body */
 }
 
 /* Top Bar Styles */
 .top-bar {
     background-color: #333;
     color: #fff;
+    display: flex;
+    align-items: center;
     padding: 10px;
-    text-align: center;
-    display: flex; /* Use flexbox for centering and aligning items */
-    justify-content: space-between; /* Pushes items to the edges */
+    position: relative;
 }
 
 /* Style the logo image */
-.logo {
-    margin-left: 10px; /* Add a margin to push the image to the left */
+.logo img {
+    max-height: 100%; /* Adjust the maximum height to fit the content */
+    max-width: 100%; /* Adjust the maximum width to fit the content */
+    border: 5px solid #fff; /* Add a fancy border around the image */
+    border-radius: 50%; /* Make the border circular */
+    margin-right: 20px; /* Add margin to separate the image from the text */
+}
+
+/* Style the header text */
+.header {
+    flex-grow: 1; /* Allow the text to grow and take up the remaining space */
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
 }
 
 /* Container for Left Sidebar and Main Content */
 .container {
-    display: flex; /* Use flexbox to arrange items horizontally */
+    margin-top: 0; /* Remove the margin to eliminate the gap */
+    display: flex;
+    flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
 }
 
 /* Left Sidebar Styles */
@@ -54,14 +71,10 @@ body {
     text-decoration: none;
 }
 
-
-/* ... (no changes in the CSS for top-bar and left-sidebar) */
-
 /* Main Content Styles */
 .main-content {
-    flex-grow: 1;
+    flex-grow: 1; /* Allow the main content to grow and fill the remaining space */
     padding: 20px;
-    overflow-y: auto; /* Enable vertical scrollbar if content exceeds height */
-    max-height: 80vh; /* Set a maximum height for the main content area */
+    background-color: #fff;
+    transition: opacity 0.3s; /* Add a transition effect for content changes */
 }
-
