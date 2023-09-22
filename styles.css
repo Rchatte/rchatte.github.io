@@ -1,0 +1,61 @@
+/* Reset some default styles for lists and margins */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Bar Styles */
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex; /* Use flexbox for centering and aligning items */
+    justify-content: space-between; /* Pushes items to the edges */
+}
+
+/* Style the logo image */
+.logo {
+    margin-left: 10px; /* Add a margin to push the image to the left */
+}
+
+/* Container for Left Sidebar and Main Content */
+.container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+/* Left Sidebar Styles */
+.left-sidebar {
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the links in the sidebar */
+.left-sidebar ul {
+    padding: 0;
+}
+
+.left-sidebar li {
+    margin-bottom: 10px;
+}
+
+.left-sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1; /* Allow the main content to grow and take up remaining space */
+    padding: 20px;
+}

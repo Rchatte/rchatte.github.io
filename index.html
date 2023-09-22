@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <img src="your-image.jpg" alt="Logo" width="100" class="logo">
+        <h1>Your Website Header</h1>
+    </div>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="#" data-content="content1">Example Link 1</a></li>
+                <li><a href="#" data-content="content2">Example Link 2</a></li>
+                <li><a href="#" data-content="content3">Example Link 3</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div id="content-placeholder">Select an example link to load content.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
