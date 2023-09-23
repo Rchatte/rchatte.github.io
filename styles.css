@@ -11,6 +11,14 @@ html, body, .page {
 
 .page {
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 15%; /* Adjust the left margin to match the width of the menu */
+  padding: 20px; /* Add padding to create space between content and menu */
+  overflow-y: auto; /* Add scrollbars if content exceeds page height */
+  display: flex;
+  flex-direction: column;
 }
 
 #p1 {
@@ -20,6 +28,12 @@ html, body, .page {
 #p2, #p3, #p4, #p5 {
   left: 200%;
 }
+
+.main-content {
+  margin-left: 15%; /* Set the left margin to match the width of the menu */
+}
+
+
 
 #p1 { background: #6B7B8D; }
 #p2 { background: #0D4F8B; }
