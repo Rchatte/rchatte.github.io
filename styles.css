@@ -100,7 +100,7 @@ ul {
   left: 0;
   margin: auto;
   height: auto;
-  width: 200px;
+  width: 15%;
   padding: 0;
   text-align: center;
   background-color: black;
@@ -108,7 +108,7 @@ ul {
 }
 
 ul li {
-  margin: 50px 0;
+  margin: 20px 0; /* Adjust the margin as needed to create spacing between menu items */
 }
 
 
@@ -200,7 +200,7 @@ a {
 .image-container {
   display: inline-block;
   position: relative;
-  margin-bottom: 25%; /* Add a gap (adjust as needed) between the image and other content */
+  margin-bottom: 5%; /* Add a gap (adjust as needed) between the image and other content */
 }
 
 .Picture {
@@ -208,4 +208,3 @@ a {
   border: 3px solid #ff5722;
   border-radius: 70%; /* Make the image rounder by setting border-radius to 50% */
 }
-
