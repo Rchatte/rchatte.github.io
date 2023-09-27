@@ -14,18 +14,41 @@
           <div class="ct" id="t5">
             <ul id="menu">
               <div class="image-container">
-                <img src="Images\Picture.jpeg" alt="Logo" class="Picture">
+                <a href="#t1">
+                  <img src="Resources/Picture.jpeg" alt="Logo" class="Picture">
+              </a>
                 <li><a href="#t1" class="icon id="uno">Rohan Chatterjee</a></li>
               </div>
               <li><a href="#t2" class="icon" id="dos">Projects &amp; Publications</a></li>
               <li><a href="#t3" class="icon" id="tres">Resume</a></li>
-              <li><a href="#t4" class="icon" id="cuatro">Contact Me</a></li>
+              <li><a href="#t4" class="icon" id="cuatro">Contact <br>Information</a></li>
               <li><a href="#t5" class="icon" id="cinco"></a></li>
             </ul>
             <div class="page" id="p1">
                 <div class="main-content">
 
-                    <h3 >1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h3>
+                  <header class="about-header">
+                    <h1 class="about-title">About Me</h1>
+                </header>
+                
+                <div class="about-container">
+                    <h2 class="about-section-title">Introduction</h2>
+                    <p class="about-text">Hello, my name is Rohan Chatterjee.</p>
+                
+                    <h2 class="about-section-title">Background</h2>
+                    <p class="about-text">
+                      In May 2023, I graduated Summa Cum Laude from CSULA, majoring in Computer Science and minoring in both Mathematics and Biomedical Engineering.
+                      During my time at Cal State LA, I served as an Instructional Teaching Assistant for the College of Engineering, Computer Science, and Technology,
+                      mentored students in the Biomedical Engineering Women Innovators Program, and worked as a Tutor at the Center for Academic Success.I was also named
+                         to the Dean's list for all consecutive years of my undergraduate career and assisted in research under Dr. Navid Amini at CSULA's Machine Learning
+                        and Sensing Lab. My future goal is to pursue a PhD in Computer Science with a focus on research related to Machine Learning nd Medical Technology.
+                         
+                    </p>
+
+
+
+                </div>
+                
 
                     <br>
                     
@@ -33,22 +56,147 @@
             </div>
             <div class="page" id="p2">
                 <div class="main-content">
-                    <h3 >1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h3>
+                  <header class="projects-header">
+                    <h1 class="projects-title">Projects and Papers</h1>
+                </header>
+            
+                <div class="projects-container">
+                  <div class="item">
+                    <h2 class="section-title">Academic Papers</h2>
+                    <div class="paper">
+                        <h3 class="paper-title">A Novel Similarity Measure for Retinal Optical Coherence Tomography Images</h3>
+                        <p class="paper-description">
+                          <h4>The International Symposium on Visual Computing (ISVC) 2021</h4>
+                          <h5>T. Hong, F. Mohammadi, <i><ins>R. Chetterjee</ins></i>, E. Chan, M. Pourhomayoun, K. Nouri-Mahdavi, V. Mohammadzadeh and N. Amini </h5>
+                          <img src="Resources\IVSC Image.png" class="img-right" height="200px">
+                          <p><strong>Abstract:</strong> Optical coherence tomography (OCT) has become an essential tool for imaging of the retina to perform diagnosis 
+                            and management of ocular and non-ocular diseases. In this paper, we evaluate the performance of structural similarity (SSIM) and multiscale 
+                            structural similarity (MS-SSIM) metrics in comparing cross-sectional OCT images of the retina. We will then propose new metrics that only
+                             consider areas with a high signal-to-noise ratio in retinal OCT images. Our experimental comparisons demonstrate that, as opposed to SSIM 
+                             and MS-SSIM measurements, the proposed metrics, called ROI-SSIM and ROI-MS-SSIM, more effectively extract structural information from OCT 
+                             images and hence, yield similarity values more reflective of human visual perception.</p>
+                        </p>
+                    </div>
+
+                    <div style="clear: both;"></div>
+
+                    <div class="paper">
+                      <h3 class="paper-title">Deep Residual Distilled Convolutional Learning for Detection of Large Vessel Occlusion in Ischemic Stroke Patients</h3>
+                      <p class="paper-description">
+                        <h4>IEEE Symposium on Bioinformatics and Bioengineering (BIBE) 2022</h4>
+                        <img src="Resources\CTA Demo 3 Row by row Modified vgg16 V2 F1 score0.746.png" class="img-left" height="300px">
+                        <h5><i><ins>R. Chatterjee,</ins></i> D. Sagar, F. Mohammadi, M. Pourhomayoun, M. Kaur and N. Amini </h5>
+                        <p><strong>Abstract:</strong> Acute ischemic strokes (AIS) caused by large vessel occlusion (LVO) have been shown to result in significant 
+                          rates of post-stroke dependence and mortality. Rapid detection of LVOs is essential for timely treatment to mitigate long-term functional 
+                          and psychological consequences. The standard approach for LVO detection involves manual analysis of computed tomography angiography (CTA) 
+                          brain scans, often leading to treatment delays due to the limited availability of experienced radiologists. In this paper, we propose a 
+                          novel Three-Dimensional Deep Residual Dilated Convolutional Neural Network (DRDCNet-3D) that utilizes the power of dilated convolutions 
+                          to enhance the spatial resolution for rapid detection of LVOs directly from CTA brain scans. Using a recent publicly-available dataset, 
+                          we demonstrate that our proposed model achieves an AUC-ROC of 0.91 and an F1-score of 0.90, which is, on average, a 20% increase from the 
+                          currently available open-source state-of-the-art 3D image analysis models—demonstrating its effectiveness in the diagnosis of LVOs. Our 
+                          approach can assist physicians in swiftly determining the optimal treatment strategies for patients with suspected acute ischemic stroke, 
+                          mitigating the risk of permanent severe damage.</p>
+                        </p>
+                  </div>
+                  <div style="clear: both;"></div>
+
+                    <!-- Add more papers as needed -->
+                </div>   
+
+
+                  <div class="item">
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="project">
+                        <h3 class="project-title">Characterization of Allele-Specific Alternative Splicing & Expression Events in Schizophrenia</h3>
+                        <h4>Bruins In Genomics Research Intern - Xiao Lab, UCLA </h4>
+                        <img src="Resources\Big Summer Poster.png" class="img-left" height="300px">
+                        <p class="project-description"> <strong>Description:</strong> RNA splicing is a highly regulated RNA processing mechanism, where introns are removed and exons are ligated to
+                           produce mature mRNA. Additionally, RNA splicing is a primary link between genetic variations and complex traits.3 RNA splicing is highly
+                          tissue specific, with a particularly high frequency and complex alternative splicing patterns in brain tissues. Many studies have shown that
+                           phenotypical changes in the prefrontal cortex are associated with schizophrenia. However, the genetic basis of dysregulated splicing in 
+                           schizophrenia is not fully understood. Therefore, this study examined RNA-seq data from the Dorsolateral prefrontal cortex (DLPFC) of 
+                           schizophrenia and control samples. We implemented the Allele Specific Alternative mRNA processing (ASARP) method, to identify genetically 
+                           influenced Allele Specific Alternative Splicing (ASAS) events and Allele Specific Expression (ASE) events that contribute to schizophrenia.
+                            Our approach has identified several genes with allele specific expression and alternative splicing events. Our results provide an improved 
+                            understanding of the genetically driven ASAS and ASE associated with schizophrenia. </p>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="project">
+                        <h3 class="project-title">Comorbidity and Genetic Factors and their Impacts on Patients with COVID-19</h3>
+                        <h4>Capstone Senior Design program - CSULA </h4>
+                        <img src="Resources\Capstone Project Logo.png" class="img-left" height="200px">
+                        <p class="project-description">The objective of this project is to study overlooked or unconsidered aspects related to COVID-19 to gain a better 
+                          understanding of the disease. This is being done by studying various areas, including clinical factors such as blood type and its association 
+                          with disease severity and mortality, as well as the impact of geographical, economical, and social factors on COVID-19 cases, vaccinations, and mortality. O</p>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <!-- Add more projects as needed -->
+                </div>
+                
+             
+                </div>
+                
+                
+
+
+                  
                 </div>
             </div>
-            <div class="page" id="p3">
+            <div class="page" id="p3" >
                 <div class="main-content">
-                    <h3 >1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h3>
+                    <iframe class="Resume_Viewer" src="Resources\Rohan Chatterjee Resume 2023 .pdf" ></iframe>
                 </div>
             </div>
             <div class="page" id="p4">
                 <div class="main-content">
-                    <h3 >1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h3>
+
+                  <header class="contact-header">
+                    <h1 class="contact-title">Contact Information</h1>
+                </header>
+                
+                <div class="contact-container">
+                  <div class="contact-info">
+                      <p class="contact-label">Name:</p>
+                      <p class="contact-label-info">Rohan Chatterjee</p>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-label">Email:</p>
+                      <p class="contact-label-info"><a href="mailto:rchatte@calstatela.edu" class="contact-link">rchatte@calstatela.edu</a></p>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-label" >Address:</p>
+                      <p class="contact-label-info">Los Angeles, California</p>
+                  </div>
+                  <!-- Add more contact information as needed -->
+              </div>
+                
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
             <div class="page" id="p5">
                 <div class="main-content">
-                    <h3 >1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div> 
           </div>
