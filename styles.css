@@ -229,7 +229,7 @@ a {
 .Resume_Viewer {
   border: none; /* Remove iframe border if any */
   width: 90%;
-  height: 1000px;
+  height: 85%;
   margin-top: -20px;
   margin-left: -50px;
 }
