@@ -102,6 +102,7 @@ body {
 
 .pad { padding: 50px; }
 
+
 .tm-banner {
 	height: 370px;
 	padding: 30px;
@@ -381,3 +382,26 @@ body {
 	}
 
 }
+
+
+
+
+
+.aboutus-list-header{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 0px 0px 0px;
+}
+
+
+
+.aboutus-list-level-1{
+	font-size: 18px;
+	padding: 5px 0px 0px 40px;
+}
+
+.aboutus-list-level-2{
+	font-size: 15px;
+	padding: 5px 0px 0px 40px;
+}
+
